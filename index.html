@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bondi.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Bondi</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./imgs/logo.png" class="logo-img" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main"
+            aria-controls="main"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse position-relative" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a
+                  class="nav-link text-center active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link text-center" href="#">Services</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link text-center" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link text-center" href="#">About</a>
+              </li>
+            </ul>
+            <div class="search px-3 d-none d-lg-block">
+              <i class="fa-solid fa-magnifying-glass pointer-event"></i>
+            </div>
+            <div
+              class="d-flex d-l-inline justify-content-center align-content-center gap-2"
+            >
+              <a class="btn rounded-pill main-btn d-inline" href="#">Login</a>
+              <a class="btn rounded-pill btn-primary d-inline" href="#"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="landing d-flex justify-content-center align-items-center flex-column"
+      >
+        <div class="text-center text-light">
+          <h1>Taste the Creativity</h1>
+          <p class="fs-6 text-white-50 mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing.
+          </p>
+          <a class="btn rounded-pill px-lg-4 main-btn" href="#">Get Start</a>
+        </div>
+      </section>
+      <section class="features text-center my-3">
+        <div class="container">
+          <div class="main-title user-select-none mt-3">
+            <img src="./imgs/title.png" alt="" class="img-fluid" />
+            <h2>We are good at</h2>
+            <p
+              class="text-black-50 text-uppercase fs-6 bottom-0 position-relative"
+            >
+              SOME OF THEASE STUFF
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="feat d-flex flex-column align-items-center">
+                <div class="icon-holder position-relative">
+                  <i
+                    class="fa-solid fa-1 position-absolute bottom-0 number"
+                  ></i>
+                  <i
+                    class="fa-solid fa-pencil fa-3x position-absolute bottom-0 icon"
+                  ></i>
+                </div>
+                <h3>Graphic Design</h3>
+                <p class="text-black-50 lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt ratione veritatis porro maiores, voluptates
+                  perspiciatis!
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="feat d-flex flex-column align-items-center">
+                <div class="icon-holder position-relative">
+                  <i
+                    class="fa-solid fa-2 position-absolute bottom-0 number"
+                  ></i>
+                  <i
+                    class="fa-solid fa-tv fa-3x position-absolute bottom-0 icon"
+                  ></i>
+                </div>
+                <h3>Web Design</h3>
+                <p class="text-black-50 lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt ratione veritatis porro maiores, voluptates
+                  perspiciatis!
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="feat d-flex flex-column align-items-center">
+                <div class="icon-holder position-relative">
+                  <i
+                    class="fa-solid fa-3 position-absolute bottom-0 number"
+                  ></i>
+                  <i
+                    class="fa-solid fa-cable-car fa-3x position-absolute bottom-0 icon"
+                  ></i>
+                </div>
+                <h3>Applications Design</h3>
+                <p class="text-black-50 lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt ratione veritatis porro maiores, voluptates
+                  perspiciatis!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio text-center">
+        <div class="container">
+          <div class="main-title user-select-none pt-3">
+            <img src="./imgs/title.png" alt="" class="img-fluid" />
+            <h2>We Make This</h2>
+            <p class="text-black-50 text-uppercase fs-6 position-relative">
+              PREPARE TO BE AMAZED
+            </p>
+          </div>
+          <ul
+            class="list-unstyled d-flex justify-content-center align-items-center flex-wrap pt-2 user-select-none"
+          >
+            <li class="active rounded-pill">All</li>
+            <li>Design</li>
+            <li>Code</li>
+            <li>Photography</li>
+            <li>Apps</li>
+          </ul>
+          <div class="row g-3">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-1.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-2.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-3.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-4.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-5.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-6.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-7.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box rounded my-2 position-relative">
+                <img
+                  src="./imgs/portfolio-landscape-8.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div
+                  class="text position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <p class="m-0">Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="btn main-btn rounded-pill px-lg-4 my-3 text-uppercase"
+            >i want more...</a
+          >
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="container">
+          <div class="main-title user-select-none pt-3 text-center">
+            <img src="./imgs/title.png" alt="" class="img-fluid" />
+            <h2>Some Stuff About Us</h2>
+            <p class="text-black-50 text-uppercase fs-6 position-relative">
+              THE GREAT TEAM
+            </p>
+          </div>
+          <p class="m-auto text-center text-black-50 lh-2 my-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            beatae dolorem autem aperiam esse porro rem qui. Provident
+            aspernatur incidunt cumque, quos officiis placeat alias?
+          </p>
+          <div class="row g-3 d-flex justify-content-around align-items-center">
+            <div class="col-lg-4">
+              <div class="box text-center text-lg-start">
+                <h4 class="fs-1">Retina Design</h4>
+                <p class="text-black-50">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Debitis, ut.
+                </p>
+                <p class="text-black-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Consectetur eos minima inventore amet. Officiis alias est
+                  ducimus molestiae rem saepe.
+                </p>
+                <a href="#" class="btn main-btn rounded-pill text-uppercase"
+                  >order me one</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-8 d-flex justify-content-center justify-content-lg-end align-items-center"
+            >
+              <img src="./imgs/labtop.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="meet-the-team">
+        <div class="container">
+          <h4 class="text-capitalize text-center pt-5 fs-2">meet the team</h4>
+          <p class="text-center text-black-50 m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo
+            nemo incidunt. Eveniet amet, itaque et eaque doloribus doloremque ut
+            cumque nesciunt veniam, obcaecati totam?
+          </p>
+          <div class="row py-5 gy-4">
+            <div class="col-lg-3 col-6">
+              <div class="box shadow-sm">
+                <img
+                  src="./imgs/team-portrait-1.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div class="name text-white fs-3 fw-light text-center">
+                  Jhon Doe
+                </div>
+                <blockquote class="text-black-50 text-center bg-white m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis, nam.
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="box shadow-sm">
+                <img
+                  src="./imgs/team-portrait-2.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div class="name text-white fs-3 fw-light text-center">
+                  Jhon Doe
+                </div>
+                <blockquote class="text-black-50 text-center bg-white m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis, nam.
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="box shadow-sm">
+                <img
+                  src="./imgs/team-portrait-3.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div class="name text-white fs-3 fw-light text-center">
+                  Jhon Doe
+                </div>
+                <blockquote class="text-black-50 text-center bg-white m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis, nam.
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="box shadow-sm">
+                <img
+                  src="./imgs/team-portrait-4.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div class="name text-white fs-3 fw-light text-center">
+                  Jhon Doe
+                </div>
+                <blockquote class="text-black-50 text-center bg-white m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Blanditiis, nam.
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 text-center">
+              <div class="img-holder py-3">
+                <img src="./imgs/client-1.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-2 text-center">
+              <div class="img-holder py-3">
+                <img src="./imgs/client-2.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-2 text-center">
+              <div class="img-holder py-3">
+                <img src="./imgs/client-3.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-2 text-center">
+              <div class="img-holder py-3">
+                <img src="./imgs/client-1.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-2 text-center">
+              <div class="img-holder py-3">
+                <img src="./imgs/client-2.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-2 text-center">
+              <div class="img-holder py-3">
+                <img src="./imgs/client-3.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advrtise py-5">
+        <div class="container">
+          <div class="text-center text-light">
+            <h1>Start Your Project Now</h1>
+            <p class="fs-6 text-white-50 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing.
+            </p>
+            <a class="btn rounded-pill px-lg-4 main-btn" href="#"
+              >Start Project</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="blog text-center pb-5">
+        <div class="container">
+          <div class="main-title user-select-none mt-3">
+            <img src="./imgs/title.png" alt="" class="img-fluid" />
+            <h2>Read Our Blog</h2>
+            <p
+              class="text-black-50 text-uppercase fs-6 bottom-0 position-relative"
+            >
+              NEW STORIES
+            </p>
+          </div>
+          <div class="row py-3 g-3">
+            <div class="col-md-4 col-6">
+              <div
+                class="box d-flex flex-column justify-content-center bg-white shadow-sm"
+              >
+                <img
+                  src="./imgs/blog-landscape-1.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <span class="date text-black-50 align-self-start"
+                  >12, January 2018</span
+                >
+                <span class="title fs-6 align-self-start text-start"
+                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Enim, commodi.</span
+                >
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div
+                class="box d-flex flex-column justify-content-center bg-white shadow-sm"
+              >
+                <img
+                  src="./imgs/blog-landscape-2.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <span class="date text-black-50 align-self-start"
+                  >12, January 2018</span
+                >
+                <span class="title fs-6 align-self-start text-start"
+                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Enim, commodi.</span
+                >
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div
+                class="box d-flex flex-column justify-content-center bg-white shadow-sm"
+              >
+                <img
+                  src="./imgs/blog-landscape-3.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <span class="date text-black-50 align-self-start"
+                  >12, January 2018</span
+                >
+                <span class="title fs-6 align-self-start text-start"
+                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Enim, commodi.</span
+                >
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn main-btn text-uppercase rounded-pill"
+            >more stories</a
+          >
+        </div>
+      </section>
+      <section class="subscribe py-3">
+        <div
+          class="container d-flex justify-content-center align-items-center gap-2 text-nowrap flex-wrap flex-md-nowrap"
+        >
+          <p class="m-0">Subscribe to Our NewsLetters:</p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control border-0 border-bottom"
+              placeholder="Enter Email Address"
+              aria-label="Enter Email Address"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn rounded-pill px-md-5 mx-3"
+              type="button"
+              id="button-addon2"
+            >
+              Button
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-5">
+      <div class="container">
+        <div class="row text-white-50 g-1 text-center text-lg-start">
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <img
+                style="mix-blend-mode: exclusion; max-width: 200px"
+                src="./imgs/logo.png"
+                alt=""
+                class="img-fluid my-3"
+              />
+              <p class="lh-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                deleniti consequatur molestiae numquam ipsa beatae.
+              </p>
+              <p class="lh-sm">
+                Created By
+                <span style="color: var(--green-color)">Graphberry</span> ,
+                Belgrade, Serbia
+              </p>
+              <span class="d-block"
+                >&copy; 2017-
+                <span style="color: var(--yellow-color)">Bondi, inc</span>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <span class="text-white d-block py-3">Links</span>
+              <ul
+                class="list-unstyled d-flex justify-content-center flex-column gap-3"
+              >
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Home
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Our Services
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Testimonials
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Support
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Terms and Conditions
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <span class="text-white d-block py-3">About Us</span>
+              <ul
+                class="list-unstyled d-flex justify-content-center flex-column gap-3"
+              >
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Sign in
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Register
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >About Us
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Blog
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white-50" href="#"
+                    >Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <span class="text-white d-block py-3">Contact Us</span>
+              <p class="text-white-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                odit?
+              </p>
+              <a href="#" class="btn main-btn rounded-pill px-lg-4"
+                >a.altatan@gmail.com</a
+              >
+              <div class="social-link py-3 d-flex justify-content-around">
+                <i class="bi-facebook"></i>
+                <i class="bi-twitter"></i>
+                <i class="bi-google"></i>
+                <i class="bi-github"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
